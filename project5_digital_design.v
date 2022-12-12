@@ -1,10 +1,9 @@
 //////////////////////////////////////////////////////////////////////////////
 //
-// Name: Jean-Paul Talavera, Joseph Long
+// Name: Jean-Paul Talavera, Joseph Long, Andy Lee
 // Class: DD1
-// Date: 12/1/2022
-// Description: This is a 12 bit finite state machine, added more stuff (joe)
-//
+// Date: 12/13/2022
+// Description: This file contains a 12-bit FSM with coutners to replicate a traffic controller.
 //
 ////////////////////////////////////////////////////////////////////////////////
 
