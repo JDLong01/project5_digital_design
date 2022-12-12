@@ -7,8 +7,6 @@
 //
 ////////////////////////////////////////////////////////////////////////////////
 
-
-
 module project5_digital_design(clock, reset, carew, LightOut);
 	
 	input         clock, reset, carew;
@@ -21,7 +19,6 @@ module project5_digital_design(clock, reset, carew, LightOut);
 	reg NS, EW;
 	parameter [5:0] GNS = 6'b100001, YNS  = 6'b010001, GEW = 6'b001100;
 	parameter [5:0] YEW = 6'b001010, ALLRED = 6'b001001;
-
 
 // This block sets the fsm state	
 /*
@@ -119,8 +116,6 @@ to YEW sate. at YEW state we always go to GNS state.
 					default: fsm_state <= 6'bx;
 				endcase
 		end
-		
-		
 	end
 
 	assign LightOut = fsm_state; // assing our output to the fsm state
